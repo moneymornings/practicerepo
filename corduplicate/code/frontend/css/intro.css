@@ -1,0 +1,18 @@
+/* This is a comment */
+
+/* # is used to give definition to an id */
+#tag {
+    color: red
+}
+
+/* . is used to give definition to a class */
+.blue {
+    color: blue;
+}
+
+/* The > selector is used to specify a child element */
+div > p {
+    font-weight: bold;
+}
+
+

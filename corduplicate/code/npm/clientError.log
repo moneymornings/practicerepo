@@ -1,0 +1,4 @@
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:11.707Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:11.708Z"}
+{"body":{},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:22.328Z"}
+{"body":{},"endpoint":"/todo","error":401,"ip":"::1","level":"info","message":"Query Parameters do not meet requirements","method":"GET","path_paramters":{},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:22.330Z"}

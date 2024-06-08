@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+}
+
+/* Apply the color black to all odd squares within even rows */
+.row:nth-child(even) > :nth-child(odd) {
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: colorswapBlack;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+/* Apply Blue to all even squares in the even rows */
+.row:nth-child(even) > :nth-child(even) {
+    background-color: #4287f5;
+    animation-duration: 4s;
+    animation-name: colorswapBlue;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+.row:nth-child(odd) > :nth-child(even) {
+    background-color: black;
+    animation-duration: 4s;
+    animation-name: colorswapBlack;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+.row:nth-child(odd) > :nth-child(odd) {
+    background-color: #4287f5;
+    animation-duration: 4s;
+    animation-name: colorswapBlue;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+.square {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes colorswapBlue {
+    from { background-color: #4287f5}
+    to { background-color: black}
+}
+
+@keyframes colorswapBlack {
+    from { background-color: black }
+    to { background-color: #4287f5;}
+}

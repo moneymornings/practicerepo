@@ -1,0 +1,13 @@
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{},"timestamp":"2024-04-04T19:19:23.196Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{},"timestamp":"2024-04-04T19:19:23.200Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{},"timestamp":"2024-04-04T19:22:27.688Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{},"timestamp":"2024-04-04T19:22:27.689Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{},"timestamp":"2024-04-04T19:24:35.632Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{},"timestamp":"2024-04-04T19:24:35.634Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:25:21.812Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:25:21.813Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:11.707Z"}
+{"body":{"virus":"chmod +777"},"endpoint":"/todo","error":400,"ip":"::1","level":"info","message":"Request body is not permitted","method":"GET","path_paramters":{},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:11.708Z"}
+{"body":{},"endpoint":"/todo","ip":"::1","level":"info","method":"GET","path_paramters":{"0":"todo"},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:22.328Z"}
+{"body":{},"endpoint":"/todo","error":401,"ip":"::1","level":"info","message":"Query Parameters do not meet requirements","method":"GET","path_paramters":{},"query_parameters":{"name":"\"dre\""},"timestamp":"2024-04-04T19:27:22.330Z"}
+{"body":{},"endpoint":"/","ip":"::1","level":"info","method":"GET","path_paramters":{"0":""},"query_parameters":{},"timestamp":"2024-04-04T19:29:20.698Z"}

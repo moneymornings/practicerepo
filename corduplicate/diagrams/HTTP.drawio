@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2024-03-11T15:49:46.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yaHIHXrVPoVe9CMOAfqc" version="24.0.4" type="device">
+  <diagram name="Page-1" id="bdH2sFTx7yZIpCUnH_8r">
+    <mxGraphModel dx="1554" dy="854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;GET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="130" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-2" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Is used to get information from the server&amp;nbsp;&lt;br&gt;Get requests should never have a body&lt;br&gt;Uses Query Parameters(?) to filter the data returned&amp;nbsp;&lt;br&gt;&lt;br&gt;https://espn.com/nba?player=&quot;LebronJames&quot;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="410" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;POST&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="380" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Adds data to the server that is called&lt;br&gt;&lt;br&gt;Pass data using a path parameter( / )&lt;br&gt;&lt;br&gt;https://espn.com/nba/1&lt;br&gt;&lt;br&gt;Information should be in the passed in body of the request&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;DELETE&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="730" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Deletes the data on the server&lt;br&gt;&lt;br&gt;Pass data using a path parameter( / )&lt;br&gt;&lt;br&gt;https://espn.com/nba/lakers/6&lt;br&gt;&lt;br&gt;Delete requests generally will not have a body&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="700" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-8" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;PUT&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1090" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Q0tgyIgMFFq5jyGDN40-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Update data that is already on the server&lt;br&gt;&lt;br&gt;Pass data using a path parameter( / )&lt;br&gt;&lt;br&gt;https://espn.com/nba/suns/35&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;We provide the replacement data in the body of the request&lt;br&gt;&lt;br&gt;{&lt;br&gt;name: &quot;Kevin Durant&quot;&lt;br&gt;number: 35,&lt;br&gt;position: F &lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;{&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name: &quot;Kevin Durant&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;number: 7,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;position: F&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1040" width="510" height="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

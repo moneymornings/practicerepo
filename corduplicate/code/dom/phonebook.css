@@ -1,0 +1,15 @@
+.card {
+    border-width: 2px;
+    border-color: green;
+    margin: 5px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}

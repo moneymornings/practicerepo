@@ -1,0 +1,11 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "psql -U dretaylor -d postgres -a -f ../sql/pokemon.sql"
+  },
+  "author": "",
+  "license": "ISC"
+}
