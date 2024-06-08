@@ -1,0 +1,116 @@
+<!-- create a 90s spam bug using event handlers. Create a clone of one of your favorite website pages but plant a bug in the clone. whenever someone clicks on a button or fills out a form, cause a new box to appear that states “Virus! With a picture of a bug in the box. The window that appears should look like a 90s window with a minimize and exit button. When the user tries to minimize or exit out of the window, a new box should be created on the page with the same virus warning and image.
+
+You may work in groups of your choice, with no more than three ppl per group unless there are people remaining unassigned to a group, in which case those individuals may form a group of four
+
+The webpage should be a good enough clone that the average person who does not frequent the site could be fooled. If you have any questions please post them here and I will respond  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Adams (@jujulayne) • Instagram photos and videos</title>
+    <link rel="icon" type="image/x-icon" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+    <link rel="stylesheet" href="./justinleague.css">
+    <script src="https://kit.fontawesome.com/40a7b19699.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-nav">
+        <p>
+            <img src="./JUSTINLEAGUE/Screen Shot 2024-03-17 at 8.07.37 PM.png" width="125" height="48" class="center">
+            <a class = "SignUp" href="https://www.instagram.com/accounts/emailsignup/?next=%2Fjujulayne%2F&hl=en">Sign up</a> 
+            <button class="LoginIn"><a href="https://www.instagram.com/">Log in</a></button>
+        </p>
+    </div> 
+    
+
+    <!-- Instagram Profile Section W/Image -->
+    <div class="profile-container">
+        <img id="profilePic" src="./JUSTINLEAGUE/Screen Shot 2024-03-17 at 8.08.51 PM.png" alt="Justin and Chia" width="150" height="150">
+        <div class="profile-inside-container">
+            <div class= "profile-top">
+                <h1>jujulayne</h1><button id="bugButton" class="profile-button">Follow</button>
+            </div>
+            <div class="profile-middle">
+                <span>18 posts</span>[]
+                <span>17M followers</span>
+                <span>1 following</span>
+            </div>
+            <div class="profile-end">
+                <p><span class="profile-middle">Justin Adams</span><span class="grey">he/him</span></p>
+            </div>
+            <div class="profile-tag">
+                <button onclick="bugPopper()"><i class="fa-brands fa-threads" style="color: #000000;"></i> jujulayne</button>
+            </div>  
+            <div class="profile-footer">
+                <p>🤟🏻 | 🏐</p>
+                
+            </div>
+        </div>
+    </div>
+    
+  
+
+    <!-- Private Account Box -->
+    <div class="private-container">
+        <div class="private-box">
+            <p class="private-p1">This Account is Private</p>
+            <p>Already follow jujulayne? <a href="https://www.instagram.com/accounts/login/?next=%2Fjujulayne%2F&source=private_profile&hl=en">Log in </a>to <br> see their photos and videos.</p>
+        </div>
+    </div>
+    
+
+    <!-- virus pop-up -->
+    <div id="bugPopup" class="popup">
+        <div class="popup-content">
+            <div class="popup-content-button">
+                <button id="minimizePopup">-</button>
+                <button id="closePopup">x</button>
+            </div>
+            <h1 class="virusText">
+                Go, Virus! <br> <img src="/eventpractice/justinleague/JUSTINLEAGUE/Screen Shot 2024-03-17 at 8.07.13 PM.png" alt="BUG!" width="100" height="100"> <br> ... It was very effective! 
+            </h1>
+            <p>This is a popup box!</p>
+        </div>
+    </div>
+    <!-- <button id="myButton">
+        Go, Virus! <br> <img src="bugPokemon.png" alt="BUG!" width="100" height="100"> <br> ... It was very effective! 
+    </button> -->
+    
+    <!-- Links on bottom -->
+    <div id="footer">
+        <a class="footer" href="https://about.meta.com/">Meta</a>
+        <a class="footer" href="https://about.instagram.com/">About</a>
+        <a class="footer" href="https://about.instagram.com/blog">Blog</a>
+        <a class="footer" href="https://about.instagram.com/about-us/careers">Jobs</a>
+        <a class="footer" href="https://help.instagram.com/">Help</a>
+        <a class="footer" href="https://developers.facebook.com/docs/instagram/">API</a>
+        <a class="footer" href="https://help.instagram.com/196883487377501">Privacy</a>
+        <a class="footer" href="https://help.instagram.com/581066165581870">Terms</a>
+        <a class="footer" href="https://help.instagram.com/658378635128234">Location</a>
+        <a class="footer" href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+        <a class="footer" href="https://www.threads.net/login">Threads</a>
+        <a class="footer" href="https://help.instagram.com/1128997980474717">Contact Uploading & Non-Users</a>
+        <a class="footer" href="https://about.meta.com/">Meta Verified</a>
+    </div>
+     
+    <div id="dropdown">
+        <label for="Countries"></label>
+        <select name="Countries" id="Countries">
+        <option value="Filipino">Filipino</option>
+        <option value="Swedish">Svenska</option>
+        <option value="Polish">Polski</option>
+        <option value="Spanish">Espanol</option>
+        <option value="English" selected>English</option>
+        <option value="French">Francais</option>
+        <option value="German">Deutsch</option>
+        <option value="Italian">Italiano</option>
+        <option value="Portuguese">Portugues</option>
+        <option value="Danish">Dansk</option>
+        </select>  
+        <p>© 2024 Instagram from Meta</p>
+    </div>
+    
+</body>
+<script src="./justinleague.js"></script>
+</html>

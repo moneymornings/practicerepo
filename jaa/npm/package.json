@@ -1,0 +1,19 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "product tables",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm/server.js",
+    "seed": "psql -U postgres -d postgres -a -f /Users/corcoding/digitalcrafts/jaa/npm/server.sql"
+  },
+  "author": "Ashley Davis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg-promise": "^11.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
