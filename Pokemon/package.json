@@ -1,0 +1,19 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": " Pokedex Table",
+  "main": "pokemon server.js",
+  "scripts": {
+    "start": "nodemon pokemonserver.js",
+    "seed": "psql -U postgres -d postgres -a -f /Users/corcoding/npm/pokedex.sql"
+  },
+  "author": "Ashley D",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg-promise": "^11.6.0",
+    "swagger-ui": "^5.13.0",
+    "winston": "^3.13.0"
+  }
+}

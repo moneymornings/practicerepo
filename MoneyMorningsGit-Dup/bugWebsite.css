@@ -1,0 +1,38 @@
+.blackIphone { text-align: center;
+background-color: black;
+color: white;
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+letter-spacing: 0em;
+line-height: 1.21053;
+font-weight: 400px;
+font-size: 19px;
+}
+
+.blueiPhone {
+text-align: center;
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+letter-spacing: 0em;
+line-height: 1.21053;
+font-weight: 400px;
+font-size: 19px;
+}
+
+
+
+
+/* nav trim */
+/* .container-fluid{
+    background-color: black;
+} */
+
+/* linkpostion */
+
+/* .learnmore{
+    position: absolute;
+    
+} */
+/* .buy{
+    position:absolute ;
+    
+} */
+

@@ -1,0 +1,172 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("Poke Website Images/pokemon-stadium-1920-x-1080-wallpaper-n4vucrf9p26da65s.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+/* .navbar-brand{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  position: absolute !important;
+  left: 32%;
+  top: 250px !important;
+  bottom: 1px !important;
+  text-align: center !important;
+} */
+#playerOne{
+margin-right: 10%;
+/* background-image: url("Poke Website Images/firebackground.png"); */
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+#playerTwo{
+/* background-image: url("Poke Website Images/icebackground.png"); */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+} 
+.pokemon{
+display: flex;
+z-index: 5;
+justify-content: space-around;
+position: absolute;
+bottom:20%;
+right: 45%;
+width: 40%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+
+
+
+
+/* #pokeball{
+height: 50%;
+width: 50%;
+position: absolute;
+top: 10%;
+z-index: 10
+} */
+
+/* .img{
+  display:flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.card {
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  background-image: url("https://storage.ko-fi.com/cdn/useruploads/display/34cfaba3-b720-4599-9945-d026bad8a49f_widescreenthumbnail.png");
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+  border: 18px solid yellow;
+  margin: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  */
+
+
+#attackBoxContainer {
+  display: flex;
+  flex-direction:column;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-style: solid;
+
+}
+
+#strike1{
+  color: black; 
+  font-weight: bold;
+  background-color:aqua;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 10%;
+
+
+
+}
+
+#strike2{
+  color: black; 
+  font-weight: bold;
+  background-color:aqua;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+}
+
+
+
+#strike3{
+  color: black; 
+  font-weight: bold;
+  background-color:aqua;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+
+}
+
+#strike4{
+  color: black; 
+  font-weight: bold;
+  background-color: aqua;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+
+}
+
+#attack1{
+  color: white; 
+  font-weight: bold;
+  background-color:red;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 10%;
+}
+
+#attack2{
+  color: white; 
+  font-weight: bold;
+  background-color:red;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+
+ 
+}
+
+#attack3{
+  color: white; 
+  font-weight: bold;
+  background-color:red;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+
+}
+
+#attack4{
+  color: white; 
+  font-weight: bold;
+  background-color:red;
+  height: 50px;
+  border-radius: 70%;
+  margin-top: 5%;
+  
+
+}

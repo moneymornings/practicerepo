@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  .fullBody{
+    background-color: black;
+    display: grid  !important;
+    background-color: black  !important;
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+  .header {
+    /* display: grid  !important; */
+    background-color: black  !important;
+    text-align: center;
+    color: #ffffff;
+
+  }
+
+  nav.navbar.bg-primary{
+    background-color: red !important;
+
+  }
+
+
+
+
+ 
+  .getrequest{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+
+  }
+  .getresponse{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+  }
+
+  
+
+
+  .postrequest{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+  .postresponse{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+
+  .putrequest{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+  .putresponse{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+
+
+
+  .deleterequest{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+  .deleteresponse{
+    background-color: black !important;
+    text-align: left;
+    color: white;
+
+  }
+
+
+
+.btn-outline-success{
+    color: chartreuse !important ;
+    font-size: x-large;
+  }
+
+  .btn-outline-warning{
+    color: goldenrod !important ;
+    font-size: x-large;
+  }
+
+
+
+ .btn-outline-info{
+    color: aqua !important ;
+    font-size: x-large;
+  }
+
+.btn-outline-danger{
+  color: red !important ;
+  font-size: x-large;
+}
+
+.accordion-button.collapsed{
+    color: white !important;
+    background: black !important;
+}
+
+.accordion-body{
+    color: chartreuse !important;
+    background-color: black !important;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: absolute !important;
+    left: 660px;
+    top: 20px !important;
+    bottom: 1px !important;
+    text-align: center !important;
+}

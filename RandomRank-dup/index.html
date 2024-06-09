@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Rankings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Navbar photos/Random Ranking 2.1.png">
+    <script src="rankings.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+</head>
+
+<body onload="startPage()">
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <span class="migosmigos"></span>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="Navbar photos/Random Ranking textlogo.png" width="125" height="125"> 
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img src="./Navbar photos/Random Ranking 2.1.png"  width="100" height="100">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">RANDOM RANKING</a>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pick Your Favorite Category
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a onclick="testMovie()" class="dropdown-item" href="#">Movies</a></li>
+                <li><a onclick="testTV()" class="dropdown-item" href="#">TV Shows</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Game Shows</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="A Goofy Movie..." aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Start Page -->
+<div id="startPageDiv">
+  <img id="easterButton" class="startPageLogo" src="Navbar photos/Random Ranking 2.1.png" alt="random-ranking-logo">
+  <p>Random Rankings, Clear Winners!</p>
+  <p id="startDate"></p>
+  <button onclick="startGame()" id="startGameButton">Start Game</button>
+  <button class="Migos"><a href="https://github.com/estradagabe1996/randomRankings">Meet The Team</a></button>
+</div> 
+
+<!-- How to Play Pop Up  -->
+<div id="fullcontainer" >
+ <div id="howtoplaypopup" class=" popupbox">
+    <div class= "popup-content">
+        <div class= "popup-content-button">
+            <button type ="button" class = "closepop" onclick ="closePop()">X<button>  
+        </div>
+    </div>
+    <h4 id="howToTitle"> How to Play! </h4> <br> <h5>1. Click New Movie to Start Game  & A Random Movie Poster will appear. <br> 2. Now click your preferred ranking position button from 1-5. <br> 3.Continue to click your preferred ranking position button for until all 5 Movies are Ranked!<br> 4. Be Careful! You don't know what movie poster will pop up next!  Click X to start the game <br> <br> 
+        <img src="./Navbar photos/click.1.png" width="145" height="130"> <img src="./Navbar photos/click.2.png" width="145" height="130"></h5>  
+ </div>
+</div>
+
+<!-- Ranking Game Codes -->
+<div id="gameScreen">
+  <div class="fullBody">
+    <div class="cards">
+    <!-- Ranking buttons -->
+        <div class="card1" style="height: 1fr;" id="card1">
+            <div class="card-body">
+            <div id="b1"></div>
+            <a href="#" onclick="placeItem(family, `b1`, `b0`)" class="btn btn-primary">1</a>
+            </div>
+        </div>
+        <div class="card2" style="height: 1fr;" id="card2">
+            <div class="card-body">
+              <div id="b2"></div>
+              <a href="#" onclick="placeItem(family, `b2`, `b0`)" class="btn btn-primary">2</a>
+            </div>
+        </div>
+        <div class="card3" style="height: 1fr;" id="card3">
+            <div class="card-body">
+              <div id="b3"></div>
+              <a href="#" onclick="placeItem(family, `b3`, `b0`)" class="btn btn-primary">3</a>
+            </div>
+        </div>
+        <div class="card4" style="height: 1fr;" id="card4">
+            <div class="card-body">
+              <div id="b4"></div>
+              <a href="#" onclick="placeItem(family, `b4`, `b0`)" class="btn btn-primary">4</a>
+            </div>
+        </div>
+        <div class="card5" style="height: 1fr;" id="card5">
+            <div class="card-body">
+              <div id="b5"></div>
+              <a href="#" onclick="placeItem(family, `b5`, `b0`)" class="btn btn-primary">5</a>
+            </div>
+    </div>
+  </div>     
+<!-- Start game button for Adventure Movies Category -->
+        <div class="starter" id="starterItem">
+          <div id="b0"></div>
+          <button id="hideGameButton" onclick="startGameButton(family, 'b0')">NEW MOVIE</button>
+        </div>
+</div>
+</div>
+
+<!-- TV Shows -->
+<!-- Ranking Game Codes -->
+<div id="gameScreen2">
+  <div class="fullBody">
+    <div class="cards">
+    <!-- Ranking buttons -->
+        <div class="card1" style="height: 1fr;" id="card1">
+            <div class="card-body">
+            <div id="a1"></div>
+            <a href="#" onclick="placeItem(shows, `a1`, `a0`)" class="btn btn-primary">1</a>
+            </div>
+        </div>
+        <div class="card2" style="height: 1fr;" id="card2">
+            <div class="card-body">
+              <div id="a2"></div>
+              <a href="#" onclick="placeItem(shows, `a2`, `a0`)" class="btn btn-primary">2</a>
+            </div>
+        </div>
+        <div class="card3" style="height: 1fr;" id="card3">
+            <div class="card-body">
+              <div id="a3"></div>
+              <a href="#" onclick="placeItem(shows, `a3`, `a0`)" class="btn btn-primary">3</a>
+            </div>
+        </div>
+        <div class="card4" style="height: 1fr;" id="card4">
+            <div class="card-body">
+              <div id="a4"></div>
+              <a href="#" onclick="placeItem(shows, `a4`, `a0`)" class="btn btn-primary">4</a>
+            </div>
+        </div>
+        <div class="card5" style="height: 1fr;" id="card5">
+            <div class="card-body">
+              <div id="a5"></div>
+              <a href="#" onclick="placeItem(shows, `a5`, `a0`)" class="btn btn-primary">5</a>
+            </div>
+    </div>
+  </div>     
+<!-- Start game button for TV Shows Category -->
+        <div class="starter" id="starterItem1">
+          <div id="a0"></div>
+          <button id="hideGameButton1" onclick="startGameButton(shows, `a0`)">New TV Show</button>
+        </div>
+</div>
+</div>
+
+</body>
+</html>

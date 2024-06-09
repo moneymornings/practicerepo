@@ -1,0 +1,27 @@
+/* popup */
+
+.box{
+    background-color: rgb(137, 161, 185);
+    width:fit-content;
+    border: solid 5px;
+    border-radius: 20px;
+    border-color:rgb(9, 97, 113);
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-display: center;
+    text-align: center;
+    color: rgb(15, 57, 75);
+    justify-content: center;
+   }
+
+.popup-content-button {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+#exitpop {
+    color: blue;
+    visibility: hidden;
+   
+}

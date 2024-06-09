@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemania</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    
+<!--   
+          <a class="navbar-brand" href="#"><img src="./Poke Website Images/pokemania logo.png" alt=""></a> -->
+          
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  -->
+        <!-- Background Image -->
+    <div class = "bg">
+      <button id = "reset" onclick="window.location.reload();">Start over</button>
+      <!-- PLAYER 1 TO THE LEFT IN A BOX OR CARD -->
+      <div class ="pokemon">
+        <div id="playerOneContainer">
+          <div id = "playerOne">
+            <div id="playerOneImage"></div>
+            <div id="playerOneName"></div>
+            <div id="playerOneType"></div>
+            <div id="playerOneRegion"></div>
+            <div id="playerOneHp"></div>
+            <div id="playerOneDefense"></div>
+            <div id="playerOneAttack"></div>
+            <div id="playerOneWeakness"></div>
+            <div id="playerOneStrike"></div>
+          </div>
+        
+          <div id="attackBoxContainer">
+            <button id="attack1">1</button>
+            <button id="attack2">2</button>
+            <button id="attack3">3</button>  
+            <button id="attack4">4</button>
+          </div>  
+        </div>
+
+        <img src="pokemon ball.png" id = "pokeball" onclick="battle()">
+        
+<div id="playerTwoContainer">
+  <div id ="playerTwo">
+    <div id="playerTwoImage"></div>
+    <div id="playerTwoName"></div>
+    <div id="playerTwoType"></div>
+    <div id="playerTwoRegion"></div>
+    <div id="playerTwoHp"></div>
+    <div id="playerTwoDefense"></div>
+    <div id="playerTwoAttack"></div>
+    <div id="playerTwoWeakness"></div>
+  </div>
+  <div id="attackBoxContainer">
+    <button onclick="strikeOne()" id="strike1">1</button>
+    <button id="strike2">2</button>
+    <button id="strike3">3</button>  
+    <button id="strike4">4</button>
+  </div>  
+</div>
+
+</div>
+
+      <script src ="/pokemonfetch.js"></script>
+     
+</body>
+</html>
