@@ -1,0 +1,81 @@
+.App{
+  text-align: center;
+ 
+}
+
+body{
+  background-color: black !important;
+}
+
+.about{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.buttonContainer{
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.buttonRefresh{
+  
+  height: 50px;
+  width: 75px;
+}
+
+h2{
+  text-align: center !important;
+  color: white !important;
+
+}
+.h1{
+  text-align: center;
+  color: #EEB30D !important;
+}
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 20px;
+  background-color: #EEB30D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+text-emphasis: bold;
+  text-align: center;
+  padding: 10px 8px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+
+
+.cards{
+  text-align: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px
+  
+
+}
+
+.cardsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-rows: 4fr; */
+    /* grid-template-columns: 5fr; */
+
+}
